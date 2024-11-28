@@ -1,0 +1,60 @@
+
+.aa {
+    height: 1000px;
+    width: 100%;
+    background-color: red;
+}
+input {
+    margin: 10px!important;
+    width: 80%;
+    height: 40px;
+    color: #fff;
+    outline: none;
+    background-color: #ccc;
+    border-radius: 20px;
+    padding-left: 10px!important;
+    
+}
+
+input[placeholder], [placeholder], *[placeholder] {
+    color: #ffffff!important;
+}
+input::input-placeholder{
+    color: #ffffff!important;
+}
+input::-webkit-input-placeholder { /* WebKit browsers */
+  color: #ffffff!important;
+}
+ 
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #ffffff!important;
+}
+ 
+input::-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: #ffffff!important;
+}
+
+.Keyboard-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.Keyboard-box > div {
+    width: 100%;
+    height: 185px;
+}
+.Keyboard-box span {
+    color: black!important;
+}
+
+.keyboard-placeholder {
+    height: 185px;
+}
